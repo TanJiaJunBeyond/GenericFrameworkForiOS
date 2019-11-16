@@ -13,8 +13,8 @@
 		CC9D8417238024550069567B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9D8415238024550069567B /* Main.storyboard */; };
 		CC9D8419238024560069567B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC9D8418238024560069567B /* Assets.xcassets */; };
 		CC9D841C238024560069567B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9D841A238024560069567B /* LaunchScreen.storyboard */; };
-		CC9D8427238024560069567B /* GenericFramworkForiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9D8426238024560069567B /* GenericFramworkForiOSTests.swift */; };
-		CC9D8432238024560069567B /* GenericFramworkForiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9D8431238024560069567B /* GenericFramworkForiOSUITests.swift */; };
+		CC9D8427238024560069567B /* GenericFrameworkForiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9D8426238024560069567B /* GenericFrameworkForiOSTests.swift */; };
+		CC9D8432238024560069567B /* GenericFrameworkForiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9D8431238024560069567B /* GenericFrameworkForiOSUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CC9D840C238024550069567B /* GenericFramworkForiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericFramworkForiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9D840C238024550069567B /* GenericFrameworkForiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericFrameworkForiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9D840F238024550069567B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC9D8411238024550069567B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CC9D8413238024550069567B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,11 +43,11 @@
 		CC9D8418238024560069567B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC9D841B238024560069567B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC9D841D238024560069567B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC9D8422238024560069567B /* GenericFramworkForiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericFramworkForiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC9D8426238024560069567B /* GenericFramworkForiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericFramworkForiOSTests.swift; sourceTree = "<group>"; };
+		CC9D8422238024560069567B /* GenericFrameworkForiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericFrameworkForiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9D8426238024560069567B /* GenericFrameworkForiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericFrameworkForiOSTests.swift; sourceTree = "<group>"; };
 		CC9D8428238024560069567B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC9D842D238024560069567B /* GenericFramworkForiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericFramworkForiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC9D8431238024560069567B /* GenericFramworkForiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericFramworkForiOSUITests.swift; sourceTree = "<group>"; };
+		CC9D842D238024560069567B /* GenericFrameworkForiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericFrameworkForiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9D8431238024560069567B /* GenericFrameworkForiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericFrameworkForiOSUITests.swift; sourceTree = "<group>"; };
 		CC9D8433238024560069567B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,9 +79,9 @@
 		CC9D8403238024550069567B = {
 			isa = PBXGroup;
 			children = (
-				CC9D840E238024550069567B /* GenericFramworkForiOS */,
-				CC9D8425238024560069567B /* GenericFramworkForiOSTests */,
-				CC9D8430238024560069567B /* GenericFramworkForiOSUITests */,
+				CC9D840E238024550069567B /* GenericFrameworkForiOS */,
+				CC9D8425238024560069567B /* GenericFrameworkForiOSTests */,
+				CC9D8430238024560069567B /* GenericFrameworkForiOSUITests */,
 				CC9D840D238024550069567B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +89,14 @@
 		CC9D840D238024550069567B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CC9D840C238024550069567B /* GenericFramworkForiOS.app */,
-				CC9D8422238024560069567B /* GenericFramworkForiOSTests.xctest */,
-				CC9D842D238024560069567B /* GenericFramworkForiOSUITests.xctest */,
+				CC9D840C238024550069567B /* GenericFrameworkForiOS.app */,
+				CC9D8422238024560069567B /* GenericFrameworkForiOSTests.xctest */,
+				CC9D842D238024560069567B /* GenericFrameworkForiOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CC9D840E238024550069567B /* GenericFramworkForiOS */ = {
+		CC9D840E238024550069567B /* GenericFrameworkForiOS */ = {
 			isa = PBXGroup;
 			children = (
 				CC9D840F238024550069567B /* AppDelegate.swift */,
@@ -107,33 +107,33 @@
 				CC9D841A238024560069567B /* LaunchScreen.storyboard */,
 				CC9D841D238024560069567B /* Info.plist */,
 			);
-			path = GenericFramworkForiOS;
+			path = GenericFrameworkForiOS;
 			sourceTree = "<group>";
 		};
-		CC9D8425238024560069567B /* GenericFramworkForiOSTests */ = {
+		CC9D8425238024560069567B /* GenericFrameworkForiOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				CC9D8426238024560069567B /* GenericFramworkForiOSTests.swift */,
+				CC9D8426238024560069567B /* GenericFrameworkForiOSTests.swift */,
 				CC9D8428238024560069567B /* Info.plist */,
 			);
-			path = GenericFramworkForiOSTests;
+			path = GenericFrameworkForiOSTests;
 			sourceTree = "<group>";
 		};
-		CC9D8430238024560069567B /* GenericFramworkForiOSUITests */ = {
+		CC9D8430238024560069567B /* GenericFrameworkForiOSUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CC9D8431238024560069567B /* GenericFramworkForiOSUITests.swift */,
+				CC9D8431238024560069567B /* GenericFrameworkForiOSUITests.swift */,
 				CC9D8433238024560069567B /* Info.plist */,
 			);
-			path = GenericFramworkForiOSUITests;
+			path = GenericFrameworkForiOSUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CC9D840B238024550069567B /* GenericFramworkForiOS */ = {
+		CC9D840B238024550069567B /* GenericFrameworkForiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC9D8436238024560069567B /* Build configuration list for PBXNativeTarget "GenericFramworkForiOS" */;
+			buildConfigurationList = CC9D8436238024560069567B /* Build configuration list for PBXNativeTarget "GenericFrameworkForiOS" */;
 			buildPhases = (
 				CC9D8408238024550069567B /* Sources */,
 				CC9D8409238024550069567B /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = GenericFramworkForiOS;
+			name = GenericFrameworkForiOS;
 			productName = GenericFramworkForiOS;
-			productReference = CC9D840C238024550069567B /* GenericFramworkForiOS.app */;
+			productReference = CC9D840C238024550069567B /* GenericFrameworkForiOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CC9D8421238024560069567B /* GenericFramworkForiOSTests */ = {
+		CC9D8421238024560069567B /* GenericFrameworkForiOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC9D8439238024560069567B /* Build configuration list for PBXNativeTarget "GenericFramworkForiOSTests" */;
+			buildConfigurationList = CC9D8439238024560069567B /* Build configuration list for PBXNativeTarget "GenericFrameworkForiOSTests" */;
 			buildPhases = (
 				CC9D841E238024560069567B /* Sources */,
 				CC9D841F238024560069567B /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				CC9D8424238024560069567B /* PBXTargetDependency */,
 			);
-			name = GenericFramworkForiOSTests;
+			name = GenericFrameworkForiOSTests;
 			productName = GenericFramworkForiOSTests;
-			productReference = CC9D8422238024560069567B /* GenericFramworkForiOSTests.xctest */;
+			productReference = CC9D8422238024560069567B /* GenericFrameworkForiOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CC9D842C238024560069567B /* GenericFramworkForiOSUITests */ = {
+		CC9D842C238024560069567B /* GenericFrameworkForiOSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC9D843C238024560069567B /* Build configuration list for PBXNativeTarget "GenericFramworkForiOSUITests" */;
+			buildConfigurationList = CC9D843C238024560069567B /* Build configuration list for PBXNativeTarget "GenericFrameworkForiOSUITests" */;
 			buildPhases = (
 				CC9D8429238024560069567B /* Sources */,
 				CC9D842A238024560069567B /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				CC9D842F238024560069567B /* PBXTargetDependency */,
 			);
-			name = GenericFramworkForiOSUITests;
+			name = GenericFrameworkForiOSUITests;
 			productName = GenericFramworkForiOSUITests;
-			productReference = CC9D842D238024560069567B /* GenericFramworkForiOSUITests.xctest */;
+			productReference = CC9D842D238024560069567B /* GenericFrameworkForiOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CC9D8407238024550069567B /* Build configuration list for PBXProject "GenericFramworkForiOS" */;
+			buildConfigurationList = CC9D8407238024550069567B /* Build configuration list for PBXProject "GenericFrameworkForiOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CC9D840B238024550069567B /* GenericFramworkForiOS */,
-				CC9D8421238024560069567B /* GenericFramworkForiOSTests */,
-				CC9D842C238024560069567B /* GenericFramworkForiOSUITests */,
+				CC9D840B238024550069567B /* GenericFrameworkForiOS */,
+				CC9D8421238024560069567B /* GenericFrameworkForiOSTests */,
+				CC9D842C238024560069567B /* GenericFrameworkForiOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -269,7 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC9D8427238024560069567B /* GenericFramworkForiOSTests.swift in Sources */,
+				CC9D8427238024560069567B /* GenericFrameworkForiOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC9D8432238024560069567B /* GenericFramworkForiOSUITests.swift in Sources */,
+				CC9D8432238024560069567B /* GenericFrameworkForiOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		CC9D8424238024560069567B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CC9D840B238024550069567B /* GenericFramworkForiOS */;
+			target = CC9D840B238024550069567B /* GenericFrameworkForiOS */;
 			targetProxy = CC9D8423238024560069567B /* PBXContainerItemProxy */;
 		};
 		CC9D842F238024560069567B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CC9D840B238024550069567B /* GenericFramworkForiOS */;
+			target = CC9D840B238024550069567B /* GenericFrameworkForiOS */;
 			targetProxy = CC9D842E238024560069567B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -436,12 +436,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SNU9YPAX8G;
-				INFOPLIST_FILE = GenericFramworkForiOS/Info.plist;
+				INFOPLIST_FILE = GenericFrameworkForiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanjiajun.GenericFramworkForiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanjiajun.GenericFrameworkForiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -454,12 +454,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SNU9YPAX8G;
-				INFOPLIST_FILE = GenericFramworkForiOS/Info.plist;
+				INFOPLIST_FILE = GenericFrameworkForiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanjiajun.GenericFramworkForiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanjiajun.GenericFrameworkForiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -516,13 +516,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SNU9YPAX8G;
-				INFOPLIST_FILE = GenericFramworkForiOSUITests/Info.plist;
+				INFOPLIST_FILE = GenericFrameworkForiOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanjiajun.GenericFramworkForiOSUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanjiajun.GenericFrameworkForiOSUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -536,13 +536,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SNU9YPAX8G;
-				INFOPLIST_FILE = GenericFramworkForiOSUITests/Info.plist;
+				INFOPLIST_FILE = GenericFrameworkForiOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanjiajun.GenericFramworkForiOSUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanjiajun.GenericFrameworkForiOSUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -553,7 +553,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CC9D8407238024550069567B /* Build configuration list for PBXProject "GenericFramworkForiOS" */ = {
+		CC9D8407238024550069567B /* Build configuration list for PBXProject "GenericFrameworkForiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC9D8434238024560069567B /* Debug */,
@@ -562,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC9D8436238024560069567B /* Build configuration list for PBXNativeTarget "GenericFramworkForiOS" */ = {
+		CC9D8436238024560069567B /* Build configuration list for PBXNativeTarget "GenericFrameworkForiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC9D8437238024560069567B /* Debug */,
@@ -571,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC9D8439238024560069567B /* Build configuration list for PBXNativeTarget "GenericFramworkForiOSTests" */ = {
+		CC9D8439238024560069567B /* Build configuration list for PBXNativeTarget "GenericFrameworkForiOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC9D843A238024560069567B /* Debug */,
@@ -580,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC9D843C238024560069567B /* Build configuration list for PBXNativeTarget "GenericFramworkForiOSUITests" */ = {
+		CC9D843C238024560069567B /* Build configuration list for PBXNativeTarget "GenericFrameworkForiOSUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC9D843D238024560069567B /* Debug */,

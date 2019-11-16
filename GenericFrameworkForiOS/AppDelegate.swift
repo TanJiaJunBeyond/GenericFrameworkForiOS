@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  GenericFramworkForiOS
+//  GenericFrameworkForiOS
 //
 //  Created by 谭嘉俊 on 2019/11/16.
 //  Copyright © 2019 谭嘉俊. All rights reserved.

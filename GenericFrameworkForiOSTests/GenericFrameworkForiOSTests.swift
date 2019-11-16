@@ -1,15 +1,15 @@
 //
-//  GenericFramworkForiOSTests.swift
-//  GenericFramworkForiOSTests
+//  GenericFrameworkForiOSTests.swift
+//  GenericFrameworkForiOSTests
 //
 //  Created by 谭嘉俊 on 2019/11/16.
 //  Copyright © 2019 谭嘉俊. All rights reserved.
 //
 
 import XCTest
-@testable import GenericFramworkForiOS
+@testable import GenericFrameworkForiOS
 
-class GenericFramworkForiOSTests: XCTestCase {
+class GenericFrameworkForiOSTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
