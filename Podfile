@@ -1,5 +1,5 @@
 target 'GenericFrameworkForiOS' do
-    pod 'Snapkit'
+    pod 'SnapKit'
     pod 'Alamofire'
     pod 'Kingfisher'
     pod 'RxSwift'

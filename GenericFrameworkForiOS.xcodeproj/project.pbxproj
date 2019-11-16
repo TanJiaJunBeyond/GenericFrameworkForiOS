@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A4023287FC637B96D43209B /* libPods-GenericFrameworkForiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F3B5392F29A21F0E6D64E4 /* libPods-GenericFrameworkForiOS.a */; };
 		CC9D8410238024550069567B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9D840F238024550069567B /* AppDelegate.swift */; };
 		CC9D8412238024550069567B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9D8411238024550069567B /* SceneDelegate.swift */; };
 		CC9D8414238024550069567B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9D8413238024550069567B /* ViewController.swift */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1764BC34DACFAA931536CC79 /* Pods-GenericFrameworkForiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericFrameworkForiOS.release.xcconfig"; path = "Target Support Files/Pods-GenericFrameworkForiOS/Pods-GenericFrameworkForiOS.release.xcconfig"; sourceTree = "<group>"; };
+		5D93A616AE432F5D5924634F /* Pods-GenericFrameworkForiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericFrameworkForiOS.debug.xcconfig"; path = "Target Support Files/Pods-GenericFrameworkForiOS/Pods-GenericFrameworkForiOS.debug.xcconfig"; sourceTree = "<group>"; };
 		CC9D840C238024550069567B /* GenericFrameworkForiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericFrameworkForiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9D840F238024550069567B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC9D8411238024550069567B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		CC9D842D238024560069567B /* GenericFrameworkForiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericFrameworkForiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9D8431238024560069567B /* GenericFrameworkForiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericFrameworkForiOSUITests.swift; sourceTree = "<group>"; };
 		CC9D8433238024560069567B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9F3B5392F29A21F0E6D64E4 /* libPods-GenericFrameworkForiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GenericFrameworkForiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A4023287FC637B96D43209B /* libPods-GenericFrameworkForiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9EC121D55BF35556A3B2C685 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9F3B5392F29A21F0E6D64E4 /* libPods-GenericFrameworkForiOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAC46D0954E3044AA96E7231 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D93A616AE432F5D5924634F /* Pods-GenericFrameworkForiOS.debug.xcconfig */,
+				1764BC34DACFAA931536CC79 /* Pods-GenericFrameworkForiOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CC9D8403238024550069567B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +106,8 @@
 				CC9D8425238024560069567B /* GenericFrameworkForiOSTests */,
 				CC9D8430238024560069567B /* GenericFrameworkForiOSUITests */,
 				CC9D840D238024550069567B /* Products */,
+				AAC46D0954E3044AA96E7231 /* Pods */,
+				9EC121D55BF35556A3B2C685 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +160,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC9D8436238024560069567B /* Build configuration list for PBXNativeTarget "GenericFrameworkForiOS" */;
 			buildPhases = (
+				7BC979DD98FDA0FE73D49DD6 /* [CP] Check Pods Manifest.lock */,
 				CC9D8408238024550069567B /* Sources */,
 				CC9D8409238024550069567B /* Frameworks */,
 				CC9D840A238024550069567B /* Resources */,
@@ -253,6 +279,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7BC979DD98FDA0FE73D49DD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GenericFrameworkForiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CC9D8408238024550069567B /* Sources */ = {
@@ -432,6 +483,7 @@
 		};
 		CC9D8437238024560069567B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D93A616AE432F5D5924634F /* Pods-GenericFrameworkForiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +502,7 @@
 		};
 		CC9D8438238024560069567B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1764BC34DACFAA931536CC79 /* Pods-GenericFrameworkForiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
